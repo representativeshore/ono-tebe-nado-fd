@@ -71,13 +71,9 @@
 
 .head__logo {
   grid-area: logo;
-  background-image: url(../images/logo-black.svg);
-  min-width: 148px;
-  min-height: 105px;
-  align-self: center;
-  margin-top: -3px;
-  background-repeat: no-repeat;
-  background-position: center;
+  min-width: 136px;
+  margin-top: 2px;
+  margin-right: 1px;
 }
 
 .head__contacts {

@@ -287,9 +287,9 @@
 
 .footer {
   margin-top: 180px;
+  margin-bottom: 85px;
   display: grid;
   font-size: 18px;
-  margin-bottom: 85px;
   grid-template-columns: repeat(3, 1fr);
   line-height: 1.2;
   transform: translate(1px);

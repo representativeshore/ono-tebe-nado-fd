@@ -24,7 +24,7 @@
         >
       </nav>
       <a class="head__logo">
-        <img src=".\images\logo-black.svg" alt="Логотип">
+        <img src="./images/logo-black.svg" alt="Логотип">
       </a>
       <address class="head__contacts adress">
         <a class="custom_underline" href="tel:+99995555555">+9 999 555 5555</a>
@@ -38,9 +38,9 @@
       <section class="cover">
         <div class="overlay"></div>
         <h1 class="title">
-          <span class="word first">оно</span>
-          <span class="word second">тебе</span>
-          <span class="word third">надо</span>
+          <span class="word text-align-start">оно</span>
+          <span class="word text-align-center">тебе</span>
+          <span class="word text-align-end">надо</span>
         </h1>
         <div class="description white__text">
           <p>аукцион вещей, в которые никто не верил</p>
@@ -48,15 +48,15 @@
         </div>
       </section>
       <section class="lots">
-        <h1 class="text__title lots__title">лоты</h1>
+        <h2 class="text__title lots__title">лоты</h2>
         <ul class="cards">
-          <li class="card card__first">
+          <li class="card card__film">
             <div class="overlay"></div>
             <a href="#0" class="white__text">
               <article class="lot__article">
-                <h2 class="lot__title">
+                <h3 class="lot__title">
                   фильм режиссёра, который бросил киношколу
-                </h2>
+                </h3>
                 <p class="lot__content">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -65,13 +65,13 @@
               </article>
             </a>
           </li>
-          <li class="card card__second">
+          <li class="card card__book">
             <div class="overlay"></div>
             <a href="#0" class="white__text">
               <article class="lot__article">
-                <h2 class="lot__title">
+                <h3 class="lot__title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </h2>
+                </h3>
                 <p class="lot__content">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
@@ -83,13 +83,13 @@
               </article>
             </a>
           </li>
-          <li class="card card__third">
+          <li class="card card__picture">
             <div class="overlay"></div>
             <a href="#0" class="white__text">
               <article class="lot__article">
-                <h2 class="lot__title">
+                <h3 class="lot__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </h2>
+                </h3>
                 <p class="lot__content">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -104,17 +104,17 @@
       </section>
       <section class="about">
         <div class="about__logo"></div>
-        <div class="about__content">
-          <h1 class="text__title title__about">об аукционе</h1>
-          <div class="text__about">
-            <p>
+        <article class="about__content">
+          <h2 class="text__title title__about">об аукционе</h2>
+          <div>
+            <p class="about__content--text">
               Здесь вы не встретите очередное пафосное собрание невероятно
               дорогого антиквариата. Наши лоты вообще не должны были попасть ни
               на один аукцион. Потому что кому нужен дневник девочки-подростка
               или картина, которую может нарисовать даже ребёнок? Кому нужны все
               эти странные вещи, созданные любителями?
             </p>
-            <p class="about__content--space">
+            <p class="about__content--text">
               Слишком сложные или, наоборот, слишком простые. Опережающие своё
               время. В пух и прах растерзанные критиками. Непринятые и
               непонятые. Когда-то они казались просто неудачными. Но, несмотря
@@ -124,7 +124,7 @@
               лоты стали культовыми.
             </p>
           </div>
-        </div>
+        </article>
       </section>
     </main>
     <footer class="footer">
@@ -142,9 +142,21 @@
       </nav>
       <div class="footer__our_media">
         <ul class="media">
-          <li class="yt"></li>
-          <li class="vk"></li>
-          <li class="pin"></li>
+          <li>
+            <a href="#0">
+              <img src="./images/yt.svg" alt="лого youtube" class="yt">
+            </a>
+          </li>
+          <li>
+            <a href="#0">
+              <img src="./images/vk.svg" alt="лого ВК" class="vk">
+            </a>
+          </li>
+          <li>
+            <a href="#0">
+              <img src="./images/pinterest.svg" alt="лого pinterest" class="pin">
+            </a>
+          </li>
         </ul>
       </div>
     </footer>
